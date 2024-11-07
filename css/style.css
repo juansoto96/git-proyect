@@ -1,0 +1,96 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #227;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+    
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Índice */
+#indice {
+    background-color: #e2e2e2;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+#indice h2 {
+    text-align: center;
+}
+
+#indice ol {
+    list-style: decimal inside;
+}
+
+#indice li {
+    margin: 10px 0;
+}
+
+#indice a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+#indice a:hover {
+    color: #005b99;
+}
+
+/* Secciones de temas */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.tema-img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+section p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+    font-size: 0.9em;
+}
